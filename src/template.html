@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Movie App</title>
+    </head>
+
+    <body>
+        <app-bar></app-bar>
+
+        <top-banner></top-banner>
+
+        <main class="movie-container">
+            <filter-search></filter-search>
+
+            <movie-list></movie-list>
+
+            <div class="row" style="margin-top: 20px;">
+                <div class="col l12 center">
+                    <button id="load-more" class="ban2-btn2 load-more waves-effect waves-light" data-page="1" data-movies="discover">Load More</button>
+                </div>
+            </div>
+        </main>
+
+        <movie-detail-modal></movie-detail-modal>
+
+        <bottom-footer></bottom-footer>
+    </body>
+</html>
